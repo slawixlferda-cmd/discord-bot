@@ -1,0 +1,21 @@
+{
+  "name": "emm-discord-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --enable-source-maps index.js",
+    "dev": "node --enable-source-maps index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.20.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "discord.js": "^14.27.0",
+    "express": "^5.2.1",
+    "openai": "^7.9.0",
+    "pino": "^9.14.0",
+    "pino-http": "^10.5.0"
+  }
+}
